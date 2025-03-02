@@ -315,7 +315,3 @@ if version >= 508 || !exists("did_glsl_syn_inits")
 endif
 
 let b:current_syntax = "doomshader"
-
-" Default file associations
-au BufRead,BufNewFile *.fp set filetype=doomshader
-au BufRead,BufNewFile *.vp set filetype=doomshader

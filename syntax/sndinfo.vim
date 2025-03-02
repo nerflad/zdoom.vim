@@ -67,7 +67,3 @@ let b:current_syntax = "sndinfo"
 if main_syntax == 'sndinfo'
   unlet main_syntax
 endif
-
-" Default file associations
-au BufRead,BufNewFile SNDINFO set filetype=sndinfo
-au BufRead,BufNewFile SNDINFO.* set filetype=sndinfo
